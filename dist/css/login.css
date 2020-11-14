@@ -1,0 +1,371 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+.login-box {
+  min-height: 100%;
+  background: url(../images/login/a902ac40-a7eb-4c86-bfee-b866d734c4bc.png); }
+  .login-box .login-top {
+    background: transparent;
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    height: 78px;
+    line-height: 78px;
+    padding: 0 65px;
+    position: relative;
+    width: 100%; }
+    .login-box .login-top .top-cnt {
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      max-width: 894px;
+      min-width: 800px; }
+      .login-box .login-top .top-cnt .language {
+        height: 76px;
+        color: #7f7f7f;
+        cursor: pointer;
+        float: right;
+        font-size: 14px;
+        position: relative;
+        text-align: center; }
+        .login-box .login-top .top-cnt .language .ic-down {
+          border: 5px solid transparent;
+          border-top-color: #7f7f7f;
+          display: inline-block;
+          height: 0;
+          margin-bottom: -1px;
+          margin-left: 10px;
+          width: 0; }
+        .login-box .login-top .top-cnt .language ul {
+          background: #fff;
+          border-radius: 5px;
+          box-shadow: 0 0 5px #d3d3d3;
+          display: none;
+          overflow: hidden;
+          position: absolute;
+          right: 0;
+          text-align: center;
+          top: 60px;
+          width: 110px;
+          z-index: 20; }
+          .login-box .login-top .top-cnt .language ul li {
+            height: 40px;
+            line-height: 40px;
+            padding: 5px 20px; }
+          .login-box .login-top .top-cnt .language ul li:hover {
+            background: #f9fafc;
+            cursor: pointer;
+            height: 40px;
+            line-height: 40px;
+            padding: 5px 20px; }
+      .login-box .login-top .top-cnt .help-ct {
+        color: #7f7f7f !important;
+        cursor: pointer;
+        float: right;
+        font-size: 14px;
+        margin-right: 27px; }
+  .login-box .login-middle {
+    min-height: calc(100vh - 317px); }
+    .login-box .login-middle .middle-box {
+      background: transparent;
+      height: auto;
+      margin-top: 50px;
+      min-height: calc(100vh - 220px);
+      position: relative;
+      box-sizing: border-box; }
+      .login-box .login-middle .middle-box .content {
+        margin: 145px;
+        border-radius: 8px;
+        margin: 0 auto;
+        min-height: 375px;
+        padding-top: 50px;
+        position: relative;
+        width: 380px;
+        background: #fff; }
+        .login-box .login-middle .middle-box .content .account {
+          color: #000;
+          font-weight: 500;
+          margin: 0 auto 30px;
+          text-align: center;
+          width: 320px;
+          font-size: 26px;
+          line-height: 37px;
+          position: relative; }
+        .login-box .login-middle .middle-box .content .loginWay {
+          margin: 0 auto;
+          overflow: hidden;
+          width: 300px; }
+          .login-box .login-middle .middle-box .content .loginWay div {
+            color: rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+            float: left;
+            font-size: 16px;
+            position: relative;
+            text-align: center;
+            width: 50%;
+            padding-bottom: 2px; }
+            .login-box .login-middle .middle-box .content .loginWay div p {
+              display: inline-block;
+              padding-bottom: 10px;
+              border-bottom: 2px solid rgba(0, 0, 0, 0); }
+        .login-box .login-middle .middle-box .content .tel {
+          width: 300px;
+          margin-top: 20px;
+          margin: 9px auto;
+          position: relative; }
+          .login-box .login-middle .middle-box .content .tel input {
+            background: #f7f7f7;
+            border-radius: 9px;
+            box-sizing: border-box;
+            color: #000;
+            display: block;
+            font-size: 12px;
+            height: 45px;
+            margin: 0 auto;
+            text-indent: 16px;
+            width: 100%;
+            border: none;
+            box-shadow: none;
+            outline: none; }
+          .login-box .login-middle .middle-box .content .tel input:nth-child(2) {
+            background: #f7f7f7;
+            border-radius: 9px;
+            box-sizing: border-box;
+            color: #000;
+            display: block;
+            font-size: 12px;
+            height: 45px;
+            margin: 0 auto;
+            text-indent: 16px;
+            width: 100%;
+            border: none;
+            box-shadow: none;
+            display: none;
+            outline: none; }
+        .login-box .login-middle .middle-box .content .code {
+          width: 300px;
+          padding-bottom: 26px;
+          margin: 9px auto;
+          position: relative; }
+          .login-box .login-middle .middle-box .content .code .code-box {
+            display: flex; }
+            .login-box .login-middle .middle-box .content .code .code-box input {
+              outline: none;
+              margin: 0 5px 0 0;
+              -webkit-box-flex: 1;
+              background: #f7f7f7;
+              border-radius: 9px;
+              box-sizing: border-box;
+              color: #000;
+              display: block;
+              flex-grow: 1;
+              font-size: 12px;
+              height: 45px;
+              line-height: 1;
+              min-width: 0;
+              text-indent: 16px;
+              width: 100%;
+              border: none;
+              box-shadow: none; }
+            .login-box .login-middle .middle-box .content .code .code-box .input-code {
+              background-color: #e9e9e9;
+              color: #9b9b9b;
+              opacity: 1;
+              cursor: not-allowed;
+              border-radius: 9px;
+              box-sizing: border-box;
+              cursor: pointer;
+              flex-shrink: 0;
+              font-size: 12px;
+              font-weight: 500;
+              height: 45px;
+              line-height: 45px;
+              min-width: 90px;
+              padding: 0 8px;
+              text-align: center;
+              transition: .1s;
+              width: auto; }
+          .login-box .login-middle .middle-box .content .code .pass-box {
+            display: flex;
+            display: none; }
+            .login-box .login-middle .middle-box .content .code .pass-box input {
+              outline: none;
+              padding-right: 35px;
+              border-radius: 9px;
+              box-sizing: border-box;
+              color: #000;
+              display: block;
+              flex-grow: 1;
+              font-size: 12px;
+              height: 45px;
+              line-height: 1;
+              margin: 0 auto;
+              min-width: 0;
+              text-indent: 16px;
+              width: 100%;
+              border: none;
+              box-shadow: none;
+              background: #f7f7f7;
+              position: relative; }
+            .login-box .login-middle .middle-box .content .code .pass-box i {
+              background: url(../images/login/login-1.png) no-repeat 50%;
+              background-size: contain;
+              cursor: pointer;
+              display: inline-block;
+              height: 24px;
+              position: absolute;
+              right: 12px;
+              top: 11px;
+              width: 24px; }
+          .login-box .login-middle .middle-box .content .code .forget {
+            overflow: hidden;
+            position: relative;
+            display: none; }
+            .login-box .login-middle .middle-box .content .code .forget span {
+              color: rgba(0, 0, 0, 0.6);
+              cursor: pointer;
+              display: block;
+              font-size: 12px;
+              line-height: 17px;
+              margin-top: 9px; }
+            .login-box .login-middle .middle-box .content .code .forget span:hover {
+              color: #000; }
+        .login-box .login-middle .middle-box .content .order {
+          font-size: 14px;
+          width: 300px;
+          background-color: #eb0028;
+          color: #fff;
+          margin: 9px auto;
+          border: none;
+          cursor: pointer;
+          display: block;
+          border-radius: 9px;
+          font-weight: 500;
+          height: 45px;
+          line-height: 45px;
+          position: relative;
+          text-align: center;
+          white-space: nowrap;
+          outline: none; }
+        .login-box .login-middle .middle-box .content .other {
+          width: 300px;
+          display: flex;
+          justify-content: space-between;
+          margin: 6px auto 0;
+          padding-bottom: 26px;
+          text-align: right; }
+          .login-box .login-middle .middle-box .content .other .policy {
+            text-align: left;
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 12px; }
+          .login-box .login-middle .middle-box .content .other .register {
+            color: #eb0028;
+            opacity: 1;
+            cursor: pointer;
+            font-size: 12px;
+            text-align: left; }
+        .login-box .login-middle .middle-box .content .authOther {
+          margin: 20px auto;
+          text-align: center; }
+          .login-box .login-middle .middle-box .content .authOther .authOther-list {
+            color: #9b9b9b;
+            font-size: 12px;
+            line-height: 1;
+            margin: 0 auto;
+            position: relative;
+            width: 72px; }
+          .login-box .login-middle .middle-box .content .authOther .authOther-list::before {
+            background: #000;
+            left: -114px;
+            opacity: .08;
+            width: 99px;
+            content: "";
+            height: 1px;
+            position: absolute;
+            top: 7px; }
+          .login-box .login-middle .middle-box .content .authOther .authOther-list::after {
+            background: #000;
+            opacity: .08;
+            right: -114px;
+            width: 99px;
+            content: "";
+            height: 1px;
+            position: absolute;
+            top: 7px; }
+          .login-box .login-middle .middle-box .content .authOther .authOther-links {
+            margin: 15px auto 0;
+            padding-bottom: 39px; }
+            .login-box .login-middle .middle-box .content .authOther .authOther-links .authOther-link {
+              border-radius: 50%;
+              height: 30px;
+              margin: 0 13px;
+              width: 30px;
+              cursor: pointer;
+              display: inline-block; }
+            .login-box .login-middle .middle-box .content .authOther .authOther-links .ic-qq {
+              background: url(https://id.oneplus.com/img/account-qq.ed7b6165.svg) #12b7f5 center; }
+            .login-box .login-middle .middle-box .content .authOther .authOther-links .ic-wx {
+              background: url(https://id.oneplus.com/img/account-weixin.59a8548c.svg) #1aad19 center; }
+            .login-box .login-middle .middle-box .content .authOther .authOther-links .ic-wo {
+              background: url(https://id.oneplus.com/img/account-weibo.50061de7.svg) #ea0027 center; }
+
+.login-bottom {
+  margin-bottom: 20px;
+  margin-top: 50px;
+  position: relative;
+  text-align: center; }
+  .login-bottom p {
+    color: #000;
+    opacity: .3;
+    font-size: 12px;
+    text-align: center; }
+    .login-bottom p span {
+      margin-left: 5px; }
